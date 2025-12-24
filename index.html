@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Unicons CSS for icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <!-- Unicons CSS -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo"><a href="#"><span>Sanjida</span> Eshika</a></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Qualification</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <label class="mode">
+      <input type="checkbox" id="darkModeButton" checked>
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-moon"></i>
+    </label>
+    <div class="settings">
+      <button id="open-settings"><i class="fas fa-cog"></i> Settings</button>
+    </div>
+
+<!-- Hidden Settings Panel -->
+    <div id="settings-panel">
+      <h3>Theme Settings</h3>
+      <label>
+        Background:
+        <input type="color" id="bg-color" value="#0d0d0d">
+      </label>
+      <label>
+        Text:
+        <input type="color" id="text-color" value="#ffffff">
+      </label>
+      <button id="apply-theme">Apply</button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+    <!-- Home Section -->
+     
+<section id="home" class="home-section">
+  <div class="home_container">
+    <div class="home-left">
+      <h3>Hi, It's</h3>
+      <h1>Sanjida Rahman Eshika</h1>
+      <h2>And I'm a <span id="animated-roles">Web Developer, Designer, AI Enthusiast</span><span class="cursor">|</span></h2>
+      <p>I am a passionate computer science student with experience in web development, creating user-friendly and responsive websites, and learning cutting-edge technologies in AI and software development.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="home-right">
+      <img src="eshikaportfolio.png" alt="Sanjida Rahman Eshika" class="profile-picture">
+    </div>
+  </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+
+      <h2 data-heading="My Intro" class="section_title">About Me</h2>
+
+      <div class="about_container container grid">
+        <!-- About Image -->
+        <img src="eshikaportfolio.png" alt="About Image" class="about_img">
+        
+
+        <!-- About Data -->
+        <div class="about_data">
+          <h3 class="about_heading">Hi, I'm Sanjida Eshika</h3>
+          <p class="about_description">
+             I am a university student in the 4th year of my bachelor's with a strong passion for UX/UI design. 
+             I am driven to become a web developer who creates user-centric, visually compelling, and intuitive web experiences. 
+             I enjoy using creativity and problem-solving skills to bring ideas to life on the web, merging design principles with functional, responsive code. Inspired by art and technology, 
+             I am always eager to explore innovative approaches, expand my technical skills, and broaden my creative horizons in web development. 
+             My goal is to develop applications that not only serve user needs but also deliver seamless, engaging interactions.
+          </p>
+          <a href="assets/docs/CV.pdf" download class="btn download-btn">
+            Download CV
+          </a>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    <!-- Education Section -->
+<!-- Education & Experience Section -->
+<section class="qualification section">
+  <h2 data-heading="My Journey" class="section_title">Qualification</h2>
+  <div class="qualification_container container grid">
+
+    
+
+    <!-- Education -->
+    <div class="education">
+      <h3 class="qualification_title">
+        <i class="uil uil-graduation-cap"></i> Education
+      </h3>
+      <div class="timeline">
+        <div class="timeline_item">
+          <div class="circle_dot"></div>
+          <h3 class="timeline_title">Daffodil International University</h3>
+          <p class="timeline_text">Bachelor of Science in CSE</p>
+          <p class="timeline_cgpa">Current CGPA: 3.85/4.00<strong> (Ongoing)</strong</p>
+          <span class="timeline_date"><i class="uil uil-calendar-alt"></i>2022 - Present</span>
+        </div>
+
+        <div class="timeline_item">
+          <div class="circle_dot"></div>
+          <h3 class="timeline_title">Milestone College</h3>
+          <p class="timeline_text">HSC in Science</p>
+          <p class="timeline_cgpa">GPA: 5.00/5.00<strong>(Golden)</strong></p>
+          <span class="timeline_date"><i class="uil uil-calendar-alt"></i> 2018 - 2020</span>
+
+        </div>
+
+        <div class="timeline_item">
+          <div class="circle_dot"></div>
+          <h3 class="timeline_title">Shahajuddin Sarkar Model School & College</h3>
+          <p class="timeline_text">SSC in Science</p>
+          <p class="timeline_cgpa">GPA: 5.00 / 5.00 <strong>(Golden)</strong></p>
+          <span class="timeline_date"><i class="uil uil-calendar-alt"></i> 2016 - 2018</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experience">
+      <h3 class="qualification_title">
+        <i class="uil uil-suitcase"></i> Experience
+      </h3>
+      <div class="timeline">
+        <div class="timeline_item">
+          <div class="circle_dot"></div>
+          <h3 class="timeline_title">Copalopa Inc. (Sometown, NJ)</h3>
+          <p class="timeline_text">Lead / Senior UX Designer</p>
+          <span class="timeline_date"><i class="uil uil-calendar-alt"></i> 2013 - Present</span>
+        </div>
+
+        <div class="timeline_item">
+          <div class="circle_dot"></div>
+          <h3 class="timeline_title">Design Studio XYZ (Anycity, CA)</h3>
+          <p class="timeline_text">Junior UX Designer</p>
+          <span class="timeline_date"><i class="uil uil-calendar-alt"></i> 2011 - 2013</span>
+        </div>
+
+        <div class="timeline_item">
+          <div class="circle_dot"></div>
+          <h3 class="timeline_title">Freelance Designer (Remote)</h3>
+          <p class="timeline_text">Graphic & Web Designer</p>
+          <span class="timeline_date"><i class="uil uil-calendar-alt"></i> 2009 - 2011</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+    <!-- Skills Section -->
+<section class="skills section" id="skills">
+  <h2 data-heading="My Abilities" class="section_title">My Experience</h2>
+
+  <div class="skills_container container grid">
+
+    <!-- Programming Languages Tab -->
+    <div class="skills_tabs">
+  <div class="skills_header skills_active" data-target="#programing">
+    <i class="uil uil-brackets-curly skills_icon"></i>
+    <div>
+      <h1 class="skills_title">Programming Languages</h1>
+    </div>
+
+    <i class="uil uil-angle-down skills_arrow"></i>
+  </div>
+
+  <div class="skills_header skills_active" data-target="#ql">
+    <i class="uil uil-database skills_icon"></i> <!-- icon added -->
+    <div>
+      <h1 class="skills_title">Query Languages</h1>
+    </div>
+
+    <i class="uil uil-angle-down skills_arrow"></i>
+  </div>
+
+  <div class="skills_header skills_active" data-target="#ml">
+    <i class="uil uil-html5 skills_icon"></i> <!-- icon changed -->
+    <div>
+      <h1 class="skills_title">Markup Languages</h1>
+      
+    </div>
+    <i class="uil uil-angle-down skills_arrow"></i>
+  </div>
+
+  <div class="skills_header skills_active" data-target="#os">
+    <i class="uil uil-server-network skills_icon"></i> <!-- icon added -->
+    <div>
+      <h1 class="skills_title">Operating Systems</h1>
+      
+    </div>
+    <i class="uil uil-angle-down skills_arrow"></i>
+  </div>
+
+  <div class="skills_header skills_active" data-target="#design">
+    <i class="uil uil-palette skills_icon"></i> <!-- icon added -->
+    <div>
+      <h1 class="skills_title">Design</h1>
+    </div>
+    <i class="uil uil-angle-down skills_arrow"></i>
+  </div>
+
+  <div class="skills_header skills_active" data-target="#language">
+    <i class="uil uil-language skills_icon"></i> <!-- icon added -->
+    <div>
+      <h1 class="skills_title">Language</h1>
+      
+    </div>
+
+    <i class="uil uil-angle-down skills_arrow"></i>
+  </div>
+</div>
+
+
+    <div class="skills_content">
+      
+      <div class="skills_group" data-content id="programing">
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">C</h4>
+              <span class="skills_number" >95%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 95%;"></span>
+            </div>
+          </div> 
+          
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">C++</h3>
+              <span class="skills_number" >85%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 85%;"></span>
+            </div>
+          </div>   
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">Java</h4>
+              <span class="skills_number" >60%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 60%;"></span>
+            </div>
+          </div>   
+
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">Python</h4>
+              <span class="skills_number" >70%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 70%;"></span>
+            </div>
+          </div>   
+        </div>
+
+        
+      </div>
+
+      <div class="skills_group" data-content id="ql">
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">SQL</h4>
+              <span class="skills_number" >80%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 80%;"></span>
+            </div>
+          </div> 
+          
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">MySQL</h4>
+              <span class="skills_number" >85%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 85%;"></span>
+            </div>
+          </div>   
+
+        </div>
+      </div>
+
+      <div class="skills_group" data-content id="ml">
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">HTML</h4>
+              <span class="skills_number" >85%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 85%;"></span>
+            </div>
+          </div> 
+          
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">CSS</h4>
+              <span class="skills_number" >75%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 75%;"></span>
+            </div>
+          </div>   
+        </div>
+      </div>
+
+      <div class="skills_group" data-content id="os">
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">Linux</h4>
+              <span class="skills_number" >70%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 70%;"></span>
+            </div>
+          </div> 
+        </div>
+      </div>
+
+      <div class="skills_group" data-content id="design">
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">FigmaL</h4>
+              <span class="skills_number" >85%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 85%;"></span>
+            </div>
+          </div> 
+          
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">Adobe Photoshop</h4>
+              <span class="skills_number" >70%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" data-width="70"></span>
+            </div>
+          </div>   
+        </div>
+      </div>
+
+      <div class="skills_group" data-content id="language">
+        <div class="skills_list grid">
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">English</h4>
+              <span class="skills_number" >85%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 85%;"></span>
+            </div>
+          </div> 
+          
+          <div class="skills_data">
+            <div class="skills_titles">
+              <h4 class="skills_name">Hindi</h4>
+              <span class="skills_number" >7%%</span>
+            </div>
+
+            <div class="skills_bar">
+              <span class="skills_percentage" style="width: 75%;"></span>
+            </div>
+          </div>   
+        </div>
+      </div>
+
+
+
+    </div>
+
+    
+
+  
+
+    
+  </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+<h2 data-heading="Get In Touch" class="section_title">Contact Me</h2>
+  <div class="contact-container">
+    <div class="h2_var"><h2>Have You Any Questions ?</h2></div>
+    <p class="subtitle">I'M AT YOUR SERVICE</p>
+
+    <div class="contact-info">
+      <div class="info-box">
+        <i class="fas fa-phone"></i>
+        <h3>Call Us On</h3>
+        <p>+8801999480785</p>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Office</h3>
+        <p>44 Street, Alom-market</p>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-envelope"></i>
+        <h3>Email</h3>
+        <p>eshikasanjida@gmail.com</p>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-globe"></i>
+        <h3>Website</h3>
+        <p>Mo-designer.com</p>
+      </div>
+    </div>
+
+    <div class= h2_var><h2 class="email-heading">SEND ME AN EMAIL</h2></div>
+    <p class="subtitle">I'M VERY RESPONSIVE TO MESSAGES</p>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+      </div>
+      <input type="text" placeholder="Subject" required>
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+    <footer>
+  <div class="footer-container">
+    <div class="footer-left">
+        <div class="footer-logo">
+    <h2><span>Sanjida</span> Eshika</h2>
+  </div>
+      <p>Passionate Web Developer & Designer. Let's build something amazing together!</p>
+    </div>
+
+    <div class="footer-middle">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-right">
+      <h3>Follow Me</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Sanjida Eshika. All Rights Reserved.</p>
+  </div>
+</footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
